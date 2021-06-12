@@ -4,6 +4,8 @@
  
 body {
     font-family: 'Noto Sans HK', sans-serif; margin: 0;
+    background-color: blanchedalmond;
+
 }
 a {
     color: black;
@@ -39,6 +41,7 @@ header {
    
    
 }
+ 
 
 .col {
     width: 30%;
@@ -85,6 +88,7 @@ header{
 }
 .header-container {
      position: relative;
+    
 }
 .container {
     padding-top: 40px;
@@ -100,6 +104,7 @@ nav a {
        
 }
 
+
 }
 
 
@@ -113,5 +118,8 @@ nav a {
 
     }
  
+
+    
+
 
     }
