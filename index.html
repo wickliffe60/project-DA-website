@@ -30,8 +30,6 @@
 
 
 
-
-
             <div class="container">
         
                 <div class="col"><img src="images/IMG_1 seaside.jpg" alt="seaside sunset">
@@ -63,11 +61,27 @@
                 </div>
             
             </div>
-            
+            <button onclick="topFunction()" id="Bttn" title="Go to top">Top</button>
+
+            <script>
+                var mybutton = document.getElementById("Bttn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+            </script>
             <footer>
                 <p>Author: Robert Spalding<br>
                     <a href="mailto:hege@example.com">Email: Dscrart@gmail.com</a><br>
-                    &copy; 2021 Discover Art Studio Photography</p>
+                    &copy; 2021 Discover Art Studio Photography</p> 
             </footer>
     </body>      
 
