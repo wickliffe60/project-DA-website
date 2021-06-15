@@ -75,11 +75,8 @@ header {
     padding: 3px;
     background-color: burlywood;
     color: black; 
-  }
-
-.the-artist {
-    margin-bottom: 40px;  
-}
+    bottom: 0;
+   }
 
 #Bttn {
     display: none;
@@ -87,7 +84,7 @@ header {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 21px;
+    font-size: 28px;
     border:black;
     opacity: 0.5;
     outline-color: darkblue;
@@ -104,9 +101,28 @@ header {
   .boxes {
       display: block;
       padding: 10px;
-      ma
+      
   }
 
+  .Intro-artist {
+    border-style: hidden;  
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgba(0,0,0,0.3),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+
+  }
+.the-artist {
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 2px 1px lightgray;
+ 
+    
+    
+    
+
+}
 
 /* Tablet Appearance  */
 @media (max-width: 768px)  {
@@ -133,6 +149,7 @@ nav a {
 }
 .photos {
     padding: 40px 0;
+
        
 }
 
