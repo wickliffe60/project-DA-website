@@ -8,7 +8,9 @@
   <title>Gallery</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -29,64 +31,66 @@
   </div>
   <div style="text-align:center">
     <h2> Gallery</h2>
-    <p>Click on the images below:</p>
+    <p>Click on the images below and scroll down for larger view:</p>
   </div>
 
-<section class=img-gallery>
-  
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="/gallery photographs/IMG_20210304_191608.jpg" alt="Tree and water at Sunset" style="width:100%"
-        onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="/gallery photographs/IMG_20210609_205416.jpg" alt="Water Company Sunset" style="width:100%"
-        onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="/gallery photographs/IMG_ neighborhood sunset.jpg" alt="Neighborhood Sunset" style="width:100%"
-        onclick="myFunction(this);">
+  <section class=img-gallery>
+
     </div>
     <div class="row">
       <div class="column">
-        <img src="/gallery photographs/IMG_20210522_205835.jpg" alt="Orange Sunset" style="width:100%"
+        <img src="/gallery photographs/IMG_20210304_191608.jpg" alt="Tree and water at Sunset" style="width:100%"
           onclick="myFunction(this);">
       </div>
       <div class="column">
-        <img src="/gallery photographs/IMG_20210304_191620.jpg" alt="Water and Sunset" style="width:100%"
+        <img src="/gallery photographs/IMG_20210609_205416.jpg" alt="Water Company Sunset" style="width:100%"
           onclick="myFunction(this);">
       </div>
       <div class="column">
-        <img src="/gallery photographs/IMG_20210609_205927.jpg" alt="Crystal water Sunset" style="width:100%"
+        <img src="/gallery photographs/IMG_ neighborhood sunset.jpg" alt="Neighborhood Sunset" style="width:100%"
           onclick="myFunction(this);">
       </div>
-    
-    
-  </div>
+      <div class="row">
+        <div class="column">
+          <img src="/gallery photographs/IMG_20210522_205835.jpg" alt="Orange Sunset" style="width:100%"
+            onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/gallery photographs/IMG_20210304_191620.jpg" alt="Water and Sunset" style="width:100%"
+            onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/gallery photographs/IMG_20210609_205927.jpg" alt="Crystal Lake Sunset" style="width:100%"
+            onclick="myFunction(this);">
+        </div>
 
-</section>
-  
+
+      </div>
+
+  </section>
+
 
   <div class="contain">
     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <img id="expandedImg" style="width:100%" style="height:50;" >
+    <img id="expandedImg" style="width:100%">
+
     <div id="imgtext"></div>
   </div>
+  <div class="lidcontainer">
+    <script type="text/javascript" src="script.js"></script>
 
-  <script type="text/javascript" src="script.js"></script>
-
-
+  </div>
 
 
 
 
   <footer>
-    
-      <p>Author: Robert Spalding<br>
-        <a href="mailto:dscrart@gmail.com">Email: Dscrart@gmail.com</a><br>
-        &copy; 2021 Discover Art Photography Studio
-      </p>
-  
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    <p>Author: Robert Spalding<br>
+      <a href="mailto:dscrart@gmail.com">Email: Dscrart@gmail.com</a><br>
+      &copy; 2021 Discover Art Photography Studio
+    </p>
+
   </footer>
 </body>

@@ -1,5 +1,4 @@
-
-
+//Scroll button
 var mybutton = document.getElementById("Bttn");
                 window.onscroll = function() {scrollFunction()};
                 function scrollFunction() {
@@ -13,7 +12,7 @@ var mybutton = document.getElementById("Bttn");
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
                 }
-                
+                //Image gallery
                 function myFunction(imgs) {
                     var expandImg = document.getElementById("expandedImg");
                     var imgText = document.getElementById("imgtext");
