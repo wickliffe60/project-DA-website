@@ -20,3 +20,4 @@ var mybutton = document.getElementById("Bttn");
                     imgText.innerHTML = imgs.alt;
                     expandImg.parentElement.style.display = "block";
                 }
+               
