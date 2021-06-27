@@ -1,10 +1,10 @@
 # Project Title
-Description here.
+ Discover Art Studio Photography Webpage for Project
 
 ## Features Included
-1. Feature 1
-2. Feature 2
-3. Feature 3
+1. Gallery page
+2. Contact Us page
+3. Meet the Artist page
 
 ## How to Run the Project
 1. Open the root folder of the project.
