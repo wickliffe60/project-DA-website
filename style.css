@@ -1,6 +1,5 @@
 
-
-/* Desktop Appearance */
+/* Mobile Appearance */
  
 body {
     font-family: 'Noto Sans HK', sans-serif; margin: 0;
@@ -10,7 +9,7 @@ body {
     background-attachment: fixed;
     background-position: center; 
  
-
+ 
 }
 a {
     color: black;
@@ -29,7 +28,7 @@ a {
 }
 .container {
     min-height: 500px;
-    max-width: 1024px;
+    max-width: 850px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +256,7 @@ nav a {
 
 
 
-/* Mobile Appearance */
+
 @media (max-width: 500px)  {
     .col {
         width: 100%;
