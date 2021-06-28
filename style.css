@@ -253,13 +253,12 @@ nav a {
  }
 .linkcontact:link {color:blue;}
 .linkcontact:visited {color:blue;}
-.linkcontact:hover {yellow}
-.linkcontact:active {yellow}
 
 
 
 
-}
+
+
 
 
 
@@ -275,3 +274,4 @@ nav a {
   
     
     }
+  }
