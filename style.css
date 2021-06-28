@@ -250,6 +250,13 @@ nav a {
 .photos {
     padding: 40px 0;       
 }
+ }
+.linkcontact:link {color:blue;}
+.linkcontact:visited {color:blue;}
+.linkcontact:hover {yellow}
+.linkcontact:active {yellow}
+
+
 
 
 }
@@ -266,8 +273,5 @@ nav a {
     section {
       margin-left: 20px;
   
-    }
     
-
-
     }
