@@ -8,8 +8,9 @@
     <title>Contact Details</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"> </script>
 </head>
 
 <body>
@@ -36,27 +37,31 @@
 
         <div class="contact">
             <h2>Contact Us</h2>
-          
+
 
             <p>Send us a request by email for pricing and include photograph name and your contact information.</p>
             <P>Our telephone number is 1-123-123-1234 if you would like to leave a message. <br>
                 Some one will return your call promptly.</P>
-            <form>
-                    <div><label for="email">Email</label>
-                        <input type="text" id="fname" Email="Email" placeholder="Your Email..">
-                    </div><br>
-                    <div><label for="email">Telephone #</label>
-                        <input type="text" id="fname" Telephone number="Telephone number"
-                            placeholder="Your Telephone number..">
-                        <br><br>Comment
-                        <textarea rows="4" cols="25"
-                            placeholder="Leave a comment... Or request pricing for photos here with name of photo..."></textarea>
-                    </div>
-                
+
+
 
             </form>
-        </div>
-    </div>
+            <form name="RegForm" action="/submit.php" onsubmit="return Discoverart()" method="post">
+
+                <br>
+                <p>E-mail Address: <input type="text" size="40" placeholder="Enter Your Email Address..." name="EMail" /></p>
+                <br>
+                <p>Telephone #: <input type="text" size="40"  placeholder="Enter Your Phone Number..." name="Telephone" /></p>
+                <br>
+                <p>Comments: <textarea cols="40" placeholder="Leave a comment..or request pricing for photos here with name of photo..." name="Comment"></textarea></p>
+                <input type="submit" value="Submit" name="Submit"/>
+
+            </form>
+</body>
+
+</html>
+</div>
+</div>
 
 
 
@@ -65,12 +70,12 @@
 
 
 
-    <footer>
-        <p>Follow Us On:</p><a href="https://twitter.com/home" class="fa fa-twitter"></a>
-        <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
-        <p>Author: Robert B. Spalding<br>
-            &copy; 2021 Discover Art Studio Photography
-        </p>
+<footer>
+    <p>Follow Us On:</p><a href="https://twitter.com/home" class="fa fa-twitter"></a>
+    <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
+    <p>Author: Robert B. Spalding<br>
+        &copy; 2021 Discover Art Studio Photography
+    </p>
 
-    </footer>
+</footer>
 </body>
