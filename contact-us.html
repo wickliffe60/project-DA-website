@@ -5,77 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Details</title>
+    <title>Discover Art Studio Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="script.js"> </script>
 </head>
 
 <body>
 
-    <div class="header-container">
-        <header>
-            <div class="photos">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Camera log" width="25" height="30"> DISCOVER ART STUDIO
-                    PHOTOGRAPHY</a>
+    <main>
+        <div class="navbar" id="mynavbar">
+            <a href="index.html" class="active"><img src="images/logo.png" alt="logoimage"
+                    style="width:35px; height:35px">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="the-artist.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
 
+            </a>
+        </div>
+        <div id='homepg'>
+            <div id="homepg-wording">
+                <div id="homepg-wording-spot">
+                    <h1>CONTACT US</h1>
+                    <h2>Discover Art Studio</h2>
+
+
+                </div>
+            </div>
+            <div id="homepg-photo"></div>
+        </div>
+        <div id="photos">
+            <div id="header">
+
+                <h2></h2>
             </div>
 
-            <nav>
-                <a href="gallery.html">Gallery</a>
-                <a href="the-artist.html">The Artist</a>
-            </nav>
-
-        </header>
-
-    </div>
-
-    <div class="container">
-
-        <div class="contact">
-            <h2>Contact Us</h2>
-
-
-            <p>Send us a request by email for pricing and include photograph name and your contact information.</p>
-            <P>Our telephone number is 1-123-123-1234 if you would like to leave a message. <br>
-                Some one will return your call promptly.</P>
-
+            <div class="description">
+                <h3></h3>
+                <p>Join our email list! Submit your email and receive our newsletter with new photos and pricing
+                    published weekly!</P>
+                <onload='document.vmail.vtext.focus()'>
+                    <div class="vmaile">
+                        <h2>Enter Email Address below and Submit</h2>
+                        <form name="vmail" action="#">
+                            <ul>
+                                <li><input type='text' name='vtext' /></li>
+                                <li>&nbsp;</li>
+                                <li class="submit"><input type="submit" name="submit" value="Submit"
+                                        onclick="validatemailfm(document.vmail.vtext)" /></li>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </form>
+                    </div>
 
 
-            </form>
-            <form name="RegForm" action="/submit.php" onsubmit="return Discoverart()" method="post">
+            </div>
+        </div>
+        </div>
 
-                <br>
-                <p>E-mail Address: <input type="text" size="40" placeholder="Enter Your Email Address..." name="EMail" /></p>
-                <br>
-                <p>Telephone #: <input type="text" size="40"  placeholder="Enter Your Phone Number..." name="Telephone" /></p>
-                <br>
-                <p>Comments: <textarea cols="40" placeholder="Leave a comment..or request pricing for photos here with name of photo..." name="Comment"></textarea></p>
-                <input type="submit" value="Submit" name="Submit"/>
-
-            </form>
-</body>
-
-</html>
-</div>
-</div>
+    </main>
+    <button onclick="topFunction()" id="arrow" title="Go to top">🠕</button>
 
 
+    <script type="text/javascript" src="script.js"></script>
+
+    <footer>
+        <h3>Contact The Studio</h3>
+        <p>Studio telephone number and Email address listed below for pricing or questions:</p>
+        <p>Telephone #1-123-123-1234</p>
+        <p>&copy Discover Art Studio</p>
 
 
-
-
-
-
-<footer>
-    <p>Follow Us On:</p><a href="https://twitter.com/home" class="fa fa-twitter"></a>
-    <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
-    <p>Author: Robert B. Spalding<br>
-        &copy; 2021 Discover Art Studio Photography
-    </p>
-
-</footer>
+    </footer>
 </body>

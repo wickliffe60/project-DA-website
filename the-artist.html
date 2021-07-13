@@ -5,55 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Meet the Artist</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Discover Art Studio Artist</title>
+   <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body>
-
-    <div class="header-container">
-        <header>
-            <div class="photos">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Camera log" width="25" height="30"> DISCOVER ART STUDIO
-                    PHOTOGRAPHY</a>
-
+    
+    <main>
+        <div class="navbar" id="mynavbar">
+            <a href="index.html" class="active"><img src="images/logo.png" 
+                alt="logoimage" style="width:35px; height:35px">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact-us.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <div id='homepg'>
+            <div id="homepg-wording">
+                <div id="homepg-wording-spot">
+                    <h1> MEET THE ARTIST</h1> 
+                    <h2>Sunset Photograpy</h2>
+                  
+                  
+                </div>
             </div>
-            <nav>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact-us.html">Contact Us</a>
-            </nav>
-        </header>
-
-    </div>
-
-    <div class="container">
-        <div class="Intro-artist">
-            <p>~Hello! My name is Robert and I have been captivated by sunsets wherever I have lived. I have found that
-                even the most mundane of places can have beautiful sunsets. One does not need to go to the mountains or
-                the beach to admire a gorgeous sunset! Enjoy the pictures you see here and on the gallery page. All of
-                these photos were shot using my cell phone! If you are interested in purchasing a photo please go to the
-                contact page and notify me by email or leave a voicemail message at the studio.~</p>
+            <div id="homepg-photo"></div>
         </div>
+        <div id="photos">
+            <div id="header">
+                <h2>~~~~~~~~~~~~~~~~~~~~</h2>
+            </div>
 
-        <div class="the-artist">
-            <a href="index.html">
-
-                <img src="images/artist.jpg" alt="The Artist ~ Robert Spalding" width="300" height="300"></a>
+            <img src="images/artist.jpg" alt="artist">
+            <div class="description">
+                <h3></h3>
+               <div class="intro-artist"> <p>~Hello! My name is Robert and I have been captivated by sunsets wherever I have lived. I have found that
+                    even the most mundane of places can have beautiful sunsets. One does not need to go to the mountains or
+                    the beach to admire a gorgeous sunset! Enjoy the pictures you see here and on the gallery page. All of
+                    these photos were shot using my cell phone! If you are interested in purchasing a photo please go to the
+                    contact page and notify me by email or leave a voicemail message at the studio.~</p>
+                </div>
+            </div>
         </div>
-    </div>
-
-
-
+      
+    </main>
+    <button onclick="topFunction()" id="arrow" title="Go to top">🠕</button>
+    <script type="text/javascript" src="script.js"></script>
     <footer>
-        <p>Follow Us On:</p><a href="https://twitter.com/home" class="fa fa-twitter"></a>
-        <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
-        <p>Author: Robert B. Spalding<br>
-            <a href="contact-us.html"class="linkcontact">Contact Us</a><br>
-            &copy; 2021 Discover Art Studio Photography
-        </p>
+        <h3>Contact The Studio</h3>
+        <p>Studio telephone number listed below for pricing or questions:</p>
+        <p>Telephone #1-123-123-1234</p>
+        <p>Email: <a href="contact-us.html" style="text-decoration: none;"><b>Contact</b></a>
+            <p>&copy Discover Art Studio</p>
+
+
     </footer>
 </body>

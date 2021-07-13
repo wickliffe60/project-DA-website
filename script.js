@@ -1,44 +1,56 @@
-//Scroll button
-var mybutton = document.getElementById("Bttn");
-                window.onscroll = function() {scrollFunction()};
-                function scrollFunction() {
-                if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-                    mybutton.style.display = "block";
+//Scroll button to the top
+
+ //Collect the button:
+mybutton = document.getElementById("arrow");
+
+//Button appears mear bottom of screen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 2000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When button with arrow symbol is clicked, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+              
+               //top navigation menu
+               function myFunction() {
+                var x = document.getElementById("mynavbar");
+                if (x.className === "navbar") {
+                  x.className += " responsive";
                 } else {
-                    mybutton.style.display = "none";
+                  x.className = "navbar";
                 }
+              }
+              
+              //validate email address box
+              function validatemailfm(input) {
+
+                var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+              
+                if (input.value.match(validRegex)) {
+              
+                  alert("Valid email address - Your email has been submitted!");
+              
+                  document.vmail.vtext.focus();
+              
+                  return true;
+              
+                } else {
+              
+                  alert("Invalid email address! Please enter valid email address.");
+              
+                  document.vmail.vtext.focus();
+              
+                  return false;
+              
                 }
-                function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-                }
-                //Image gallery Tab
-                function myFunction(imgs) {
-                    var expandImg = document.getElementById("expandedImg");
-                    var imgText = document.getElementById("imgtext");
-                    expandImg.src = imgs.src;
-                    imgText.innerHTML = imgs.alt;
-                    expandImg.parentElement.style.display = "block";
-                }
-                //Contact Us form validation
-                function Discoverart() {
-                    var email = 
-                        document.forms["RegForm"]["EMail"];
-                    var phone = 
-                        document.forms["RegForm"]["Telephone"];
-                    if (email.value == "") {
-                        window.alert(
-                          "Please enter a valid e-mail address.");
-                        email.focus();
-                        return false;
-                    }
-                    if (phone.value == "") {
-                        window.alert(
-                          "Please enter your telephone number.");
-                        phone.focus();
-                        return false;
-                    }
-      
-                }
-           
-               
+              
+              }

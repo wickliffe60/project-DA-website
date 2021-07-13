@@ -2,95 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Gallery</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Discover Art Studio Gallery</title>
+   <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body>
-
-  <div class="header-container">
-    <header>
-      <div class="photos">
-        <a href="index.html">
-          <img src="images/logo.png" alt="Camera log" width="25" height="30"> DISCOVER ART STUDIO PHOTOGRAPHY</a>
-
-      </div>
-      <nav>
-        <a href="contact-us.html">Contact Us</a>
-        <a href="the-artist.html">The Artist</a>
-      </nav>
-    </header>
-
-  </div>
-  <div style="text-align:center">
-    <h2> Gallery</h2>
-    <p>Click on the images below and scroll down for larger view:</p>
-  </div>
-
-  <section class=img-gallery>
-
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="images/IMG_20210304_191608.jpg" alt="Tree and water at Sunset" style="width:100%"
-          onclick="myFunction(this);">
-      </div>
-      <div class="column">
-        <img src="images/IMG_20210609_205416.jpg" alt="Water Company Sunset" style="width:100%"
-          onclick="myFunction(this);">
-      </div>
-      <div class="column">
-        <img src="images/IMG_ neighborhood sunset.jpg" alt="Neighborhood Sunset" style="width:100%"
-          onclick="myFunction(this);">
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="images/IMG_20210522_205835.jpg" alt="Orange Sunset" style="width:100%"
-            onclick="myFunction(this);">
+    
+    <main>
+        <div class="navbar" id="mynavbar">
+            <a href="index.html" class="active"><img src="images/logo.png" 
+              alt="logoimage" style="width:35px; height:35px">Home</a>
+              <a href="contact-us.html">Contact</a>
+              <a href="the-artist.html">About</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <div id='homepg'>
+            <div id="homepg-wording">
+                <div id="homepg-wording-spot">
+                    <h1>  STUDIO GALLERY  </h1> 
+                    <h2>Sunset Photograpy</h2>
+                  
+                  
+                </div>
+            </div>
+            <div id="homepg-photo"></div>
         </div>
-        <div class="column">
-          <img src="images/IMG_20210304_191620.jpg" alt="Water and Sunset" style="width:100%"
-            onclick="myFunction(this);">
+        <div id="photos">
+            <div id="header">
+                <h2>~See Gallery Images Below~</h2>
+            </div>
+
+            <img src="images/IMG_20210522_205835.jpg" alt="Sunset Orange clouds">
+            <div class="description">
+                <h3>Orange Sunset 1</h3>
+                
+             
+            </div>
+            <img src="images/IMG_20210609_205927.jpg" alt="Crystal water sunset">
+            <div class="description">
+                <h3>Crystal Water Sunset</h3>
+                
+         
+            </div>            
+            <img src="images/IMG_7 gothic home sunset.jpg" alt="Sunset Orange clouds 2">
+            <div class="description">
+                <h3>Orange Sunset 2</h3>
+                
+          
+            </div>           
+             <img src="images/IMG_20210609_205416.jpg" alt="Mirror Lake sunset">
+            <div class="description">
+                <h3>Mirror Lake Sunset</h3>
+              
+           
+            </div>           
+             <src="images/IMG_ neighborhood sunset.jpg"  alt="neighborhood sunset">
+            <div class="description">
+                <h3>Neighborhood Sunset</h3>
+               
+                
+
+
+            </div>
         </div>
-        <div class="column">
-          <img src="images/IMG_20210609_205927.jpg" alt="Crystal Lake Sunset" style="width:100%"
-            onclick="myFunction(this);">
-        </div>
-
-
-      </div>
-
-  </section>
-
-
-  <div class="contain">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <img id="expandedImg" style="width:100%">
-
-    <div id="imgtext"></div>
-  </div>
-  <div class="lidcontainer">
+      
+    </main>
+    <button onclick="topFunction()" id="arrow" title="Go to top of document">🠕</button>
     <script type="text/javascript" src="script.js"></script>
+    <footer>
+        <h3>Contact The Studio</h3>
+        <div class="footerty"><p>Studio telephone number listed below for pricing or questions:</p>
+        <p>Telephone # <strong>1-123-123-1234</strong></p>
+        <p>Email: <a href="contact-us.html" style="text-decoration: none;"><b>Contact</b></div></a>
+            <p>&copy Discover Art Studio</p>
 
-  </div>
 
-
-
-
-  <footer>
-    <p>Follow Us On:</p><a href="https://twitter.com/home" class="fa fa-twitter"></a>
-    <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
-    <p>Author: Robert B. Spalding<br>
-      <a href="contact-us.html">Contact Us</a><br>
-      &copy; 2021 Discover Art Photography Studio
-    </p>
-
-  </footer>
+    </footer>
 </body>

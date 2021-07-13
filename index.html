@@ -6,76 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Discover Art Studio Photography</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="p:domain_verify" content="f956afa9bb6ea7684025a230d7fcd632"/>
+   
 </head>
 
 <body>
+    
+    <main>
+        <div class="navbar" id="mynavbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="the-artist.html">About</a>
+            <a href="contact-us.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <div id='homepg'>
+            <div id="homepg-wording">
+                <div id="homepg-wording-spot">
+                    <h1>  DISCOVER ART STUDIO  </h1> 
+                    <h2>Sunset Photograpy</h2>
+                   <center><img src="images/logo.png" 
+                        alt="logoimage" style="width:45px; height:45px"></center>
+                  
+                </div>
+            </div>
+            <div id="homepg-photo"></div>
+        </div>
+        <div id="photos">
+            <div id="header">
+                <h2>~See Sunset Images Below~</h2>
+            </div>
 
-    <div class="header-container">
-        <header>
-            <div class="photos">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Camera log" width="25" height="30"> DISCOVER ART STUDIO
-                    PHOTOGRAPHY</a>
+            <img src="images/IMG_1 seaside.jpg" alt="seaside sunset">
+            <div class="description">
+                <h3>Photograph #1</h3>
+                <p>A beautiful photograph of the sun setting at pierside.</p>
+             
+            </div>
+            <img src="images/IMG_2 clouds and sunburst.jpg" alt="clouds and sun">
+            <div class="description">
+                <h3>Photograph #2</h3>
+                <p>Sunshine bursting through the clouds.</p>
+         
+            </div>            
+            <img src="images/IMG_3 river sunset.jpg" alt="sunset along the river">
+            <div class="description">
+                <h3>Photograph #3</h3>
+                <p>The sun setting along the riverside.</p>
+          
+            </div>           
+             <img src="images/IMG_6 lake sunset.jpg" alt="Lake sunset viewport">
+            <div class="description">
+                <h3>Photograph #4</h3>
+                <p>Sunset from up above a large lake.</p>
+           
+            </div>           
+             <img src="images/IMG_4 city sunset.jpg" alt="City sunset">
+            <div class="description">
+                <h3>Photograph #5</h3>
+                <p>A dazzling sunset in the city.</p>
+                
+
 
             </div>
-            <nav>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact-us.html">Contact Us</a>
-                <a href="the-artist.html">The Artist</a>
-            </nav>
-        </header>
-
-    </div>
-
-    <p class="para-main">Welcome to our Studio! See images below and visit our Gallery page</p>
-
-    <div class="container">
-
-        <div class="col"><img src="images/IMG_1 seaside.jpg" alt="seaside sunset">
-            <p>Seaside Sunset</p>
         </div>
-        <div class="col"><img src="images/IMG_2 clouds and sunburst.jpg" alt="sun behind clouds">
-            <p>Sun Behind Clouds</p>
-        </div>   
-        <div class="col"><img src="images/IMG_3 river sunset.jpg" alt="river sunset">
-            <p>River Sunset</p>
-        </div>   
-        <div class="col"><img src="images/IMG_4 city sunset.jpg" alt="city sunset">
-            <p>City Sunset</p>
-        </div>   
-        <div class="col"><img src="images/IMG_5 clouds and trees.jpg" alt="sunset clouds and trees">
-            <p>Sunset and Trees</p>
-        </div>
-        <div class="col"><img src="images/IMG_6 lake sunset.jpg" alt="lake sunset">
-            <p>Lake Sunset</p>
-        </div>
-        <div class="col"><img src="images/IMG_7 gothic home sunset.jpg" alt="gothic house sunset">
-            <p>Gothic House Sunset</p>
-        </div>
-        <div class="col"><img src="images/IMG_8 Roadway Sunset.jpg" alt="Roadside Sunset">
-            <p>Roadside Sunset</p>
-        </div>
-        <div class="col"><img src="images/IMG_9 On Angels Wings.jpg" alt="Angels wings sunset">
-            <p>Angels Wings Sunset</p>
-        </div>
-
-    </div>
-    <button onclick="topFunction()" id="Bttn" title="Go to top">↑</button>
-
-    <script type="text/javascript" src="script.js"> </script>
+      
+    </main>
+    <button onclick="topFunction()" id="arrow" title="Go to top">🠕</button>
+    <script type="text/javascript" src="script.js"></script>
     <footer>
-        <p>Follow Us On:</p><br><a href="https://twitter.com/home" class="fa fa-twitter"></a>
-        <a href="https://www.pinterest.com/dscrart/_saved/" class="fa fa-pinterest"></a>
-        <p>Author: Robert B. Spalding<br>
-            <a href="contact-us.html"class="linkcontact">Contact Us</a><br>
-            &copy; 2021 Discover Art Studio Photography
+        <h3>Contact The Studio</h3>
+        <p>Studio telephone number listed below for pricing or questions:</p>
+        <p>Telephone #1-123-123-1234</p>
+        <p>Email: <a href="contact-us.html" style="text-decoration: none;"><b>Contact</b></a>
+            <p>&copy Discover Art Studio</p>
             
-        </p>
+
+
+            
     </footer>
 </body>
