@@ -53,7 +53,7 @@ box-shadow: 32px 0 38px rgba(0,0,0,0.2),
   
 }
 #homepg-photo {
-  background: url("/images/IMG_20210304_191608.jpg");
+  background-image: url("/images/IMG_20210304_191608.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
