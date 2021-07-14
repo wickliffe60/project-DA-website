@@ -13,7 +13,7 @@ to purchase or contact me for reprints or downloads of prints or just ask me que
 * a Javascript feature to move to the top of the webpage when scrolling down a page allowing user interaction with a button/mouseclick
 
 
-## Features Included
+## Feature Pages 
 1. Gallery page
 2. Contact Us page
 3. Meet the Artist page

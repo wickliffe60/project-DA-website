@@ -220,9 +220,6 @@ li {list-style-type: none;
     display: block;
    
   }
-}
-
-@media screen and (max-width: 600px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
     position: absolute;
@@ -233,5 +230,6 @@ li {list-style-type: none;
     float: none;
     display: block;
     text-align: left;
-  }
 }
+}
+
