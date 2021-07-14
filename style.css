@@ -121,7 +121,7 @@ footer h3 {
       clip-path: polygon(0 0%, 100% 0, 100% 100%, 15% 100%);
     }
     main{
-      max-width: 1000px;
+      max-width: 950px;
       margin: auto;
     }
 }
