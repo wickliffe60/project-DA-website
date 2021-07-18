@@ -185,6 +185,7 @@ li {list-style-type: none;
   background-image: url("images/background\ image\ large2fade.png");
   background-position: center;
   background-size: 300px;
+
    }
 
   input {
@@ -201,18 +202,7 @@ li {list-style-type: none;
   margin-right: 150px;
   }
  
-  #watermark {
-    position: relative;
-  }
-  #watermark::after {
-    content: 'COPYRIGHT, YOU SHALL NOT STEAL!';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    opacity: 1.0;
-    font-size: 1.5em;
-  }
-
+ 
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
