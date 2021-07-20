@@ -121,7 +121,7 @@ footer h3 {
       clip-path: polygon(0 0%, 100% 0, 100% 100%, 15% 100%);
     }
     main{
-      max-width: 950px;
+      max-width: 1000px;
       margin: auto;
     }
 }
@@ -223,3 +223,15 @@ li {list-style-type: none;
 }
 }
 
+@media screen and (min-width: 800px) {
+
+  .navbar a {
+    float: right;
+    display: flex;
+}
+  #photos {
+    display: flex;
+    
+ 
+}
+}
