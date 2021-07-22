@@ -12,6 +12,7 @@ to purchase or contact me for reprints or downloads of prints or just ask me que
 * a Javascript 'Contact Us' email validation form that displays to the user when the email is valid and then submitted
 * a Javascript feature to move to the top of the webpage when scrolling down a page allowing user interaction with a button/mouseclick
 
+The website can be viewed at https://wickliffe60.github.io/project-DA-website/index.html
 
 ## Feature Pages 
 1. Gallery page
